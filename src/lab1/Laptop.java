@@ -12,6 +12,7 @@ package lab1;
 public class Laptop extends Product{
     private String processor;
     private String screenSize;
+    private int ram;
     
     public Laptop(String name, double price, String screenSize, String processor){
         this.processor = processor;
